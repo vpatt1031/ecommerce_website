@@ -30,6 +30,8 @@ var upload = multer({ storage: storage }).single("file")
 
 router.post("/uploadImage", auth, (req, res) => {
 
+// after getting image from client need to save inside Node Server - download multer library
+
     upload(req, res, err => {
         if (err) {
             return res.json({ success: false, err })
