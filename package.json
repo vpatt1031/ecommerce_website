@@ -8,10 +8,12 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
+    "start": "if-env NODE_ENV_production && npm run prod || npm run dev",
+    "prod": "node server/index.js",
     "backend": "nodemon server/index.js",
     "frontend": "npm run front --prefix client",
-    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
+    "heroku-postbuild": "npm run frontend"
   },
   "author": "John ahn",
   "license": "ISC",
