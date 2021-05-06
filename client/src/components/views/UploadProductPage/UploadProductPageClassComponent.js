@@ -7,13 +7,13 @@ const { Title } = Typography;
 const { TextArea } = Input;
 
 const Continents = [
-    { key: 1, value: "Florida" },
+    { key: 1, value: "Pennsylvania" },
     { key: 2, value: "Virginia" },
-    { key: 3, value: "Pennsylvania" },
-    { key: 4, value: "California" },
-    { key: 5, value: "North Carolina" },
+    { key: 3, value: "Florida" },
+    { key: 4, value: "Ohio" },
+    { key: 5, value: "California" },
     { key: 6, value: "Nevada" },
-    { key: 7, value: "Ohio" }
+    { key: 7, value: "North Carolina" }
 ]
 
 export class UploadProductPage extends Component {
