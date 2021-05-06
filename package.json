@@ -8,7 +8,7 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "if-env NODE_ENV_production && npm run prod || npm run dev",
+    "start": "if-env NODE_ENV=production && npm run prod || npm run dev",
     "prod": "node server/index.js",
     "backend": "nodemon server/index.js",
     "frontend": "npm run front --prefix client",
