@@ -11,7 +11,7 @@
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server/index.js",
     "start:dev": "concurrently \"npm run backend\" \"npm run client\"",
-    "backend": "nodemon server/index.js",
+    "backend": "node server/index.js",
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
