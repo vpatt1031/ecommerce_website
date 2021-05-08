@@ -17,8 +17,8 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "author": "John ahn",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "dependencies": {
     "@datorama/if-env": "^1.0.0",
     "async": "^3.1.0",

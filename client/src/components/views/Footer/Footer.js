@@ -8,7 +8,7 @@ function Footer() {
             flexDirection: 'column', alignItems: 'center',
             justifyContent: 'center', fontSize:'1rem'
         }}>
-           <p> Happy Trails  <Icon type="smile" /></p>
+           <p> 3-2-1 FLY  <Icon type="rocket" /></p>
         </div>
     )
 }
