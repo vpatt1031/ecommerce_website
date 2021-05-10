@@ -1,2 +1,3 @@
-# ecommerce_website
-Ecommerce online shopping website.
+Theme Park Adventures!
+
+Ecommerce online shopping website for Theme Park tickets across the US
