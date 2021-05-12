@@ -12,11 +12,11 @@ function LeftMenu(props) {
     <SubMenu title={<span>Blogs</span>}>
       <MenuItemGroup title="Covid Travel Guidelines">
           <Menu.Item key="mail"><a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/faqs.html">Travel During Covid</a></Menu.Item>
-        <Menu.Item key="setting:2">Park Guidelines</Menu.Item>
+        <Menu.Item key="mail"><a href="https://www.cdc.gov/coronavirus/2019-ncov/community/parks-rec/amusement-park-carnival.html#:~:text=Require%20the%20use%20of%20masks,removal%20and%20washing%20of%20masks.">Park Guidelines</a></Menu.Item>
       </MenuItemGroup>
-      <MenuItemGroup title="Travel Insurance">
-        <Menu.Item key="setting:3">Is It Worth It?</Menu.Item>
-        <Menu.Item key="setting:4">Find Travel Insurance</Menu.Item>
+      <MenuItemGroup title="Covid Travel Insurance">
+        <Menu.Item key="mail"><a href="https://www.frommers.com/tips/health-and-travel-insurance/buying-travel-insurance-during-covid-19-should-you-and-what-kind">Is it Worth It?</a></Menu.Item>
+        <Menu.Item key="mail"><a href="https://www.forbes.com/advisor/travel-insurance/best-pandemic-travel-insurance/">Find Travel Insurance</a></Menu.Item>
       </MenuItemGroup>
     </SubMenu>
   </Menu>
