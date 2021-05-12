@@ -11,7 +11,8 @@ function LeftMenu(props) {
     </Menu.Item>
     <SubMenu title={<span>Blogs</span>}>
       <MenuItemGroup title="Covid Travel Guidelines">
-        <Menu.Item key="setting:1">Travel by Air</Menu.Item>
+        <a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/index.html">
+          <Menu.Item key="setting:1">Travel by Air</Menu.Item></a>
         <Menu.Item key="setting:2">Park Guidelines</Menu.Item>
       </MenuItemGroup>
       <MenuItemGroup title="Travel Insurance">
